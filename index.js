@@ -1,7 +1,7 @@
 'use strict';
 
-const auth = require('./auth');
-const request = require('./rp');
+const auth = require('./src/auth');
+const request = require('./src/rp');
 
 module.exports = {
   auth,
