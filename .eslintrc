@@ -1,0 +1,12 @@
+{
+  "extends": "@dialexa/eslint-config-dialexa/node-es6",
+  "plugins": [
+    "jest"
+  ],
+  "rules": {
+    "arrow-parens": ["error", "as-needed"]
+  },
+  "env": {
+    "jest/globals": true
+  }
+}

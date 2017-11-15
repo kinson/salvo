@@ -1,0 +1,24 @@
+{
+  "name": "salvo",
+  "version": "1.0.0",
+  "description": "kinvey integration test harness that uses the MIC configuration to allow for end to end testing through Kinvey all the way to the provider and back",
+  "main": "index.js",
+  "author": "Sam Hunter",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "date-fns": "^1.28.5",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.6.1",
+    "opn": "^5.1.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.2",
+    "kinvey-js-sdk": "^3.9.2"
+  },
+  "devDependencies": {
+    "@dialexa/eslint-config-dialexa": "^4.1.1",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-node": "^5.1.1",
+    "jest": "^21.1.0"
+  }
+}
